@@ -1,22 +1,16 @@
-\documentclass[a4paper,12pt]{report} % добавить leqno в [] для нумерации слева
+\documentclass[a4paper,12pt]{report} 
 
-%%% Работа с русским языком
-\usepackage{cmap}					% поиск в PDF
-\usepackage{mathtext} 				% русские буквы в фомулах
-\usepackage[T2A]{fontenc}			% кодировка
-\usepackage[utf8]{inputenc}			% кодировка исходного текста
-\usepackage[english,russian]{babel}	% локализация и переносы
+\usepackage{cmap}				
+\usepackage{mathtext} 				
+\usepackage[T2A]{fontenc}			
+\usepackage[utf8]{inputenc}			
+\usepackage[english,russian]{babel}	
 
-%%% Дополнительная работа с математикой
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
-\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+\usepackage{icomma}
 
-%% Номера формул
-\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
-
-%% Шрифты
-\usepackage{euscript}	 % Шрифт Евклид
-\usepackage{mathrsfs} % Красивый матшрифт
+% Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+\mathtoolsset{showonlyrefs=true} 
 
 %% Свои команды
 \DeclareMathOperator{\sgn}{\mathop{sgn}}
@@ -30,7 +24,7 @@
 \title{Матанчик}
 \date{20 июля 2017}
 
-\begin{document} % конец преамбулы, начало документа
+\begin{document}
 
 \maketitle
 
